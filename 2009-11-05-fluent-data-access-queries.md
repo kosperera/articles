@@ -1,6 +1,6 @@
 ---
 title: Writing fluent data access queries
-subtitle: Leverage C# extension methods to write pipes and filters.
+subtitle: Use of pipes and filters
 slug: fluent-data-access-queries
 tags: backend, apis, csharp, design-patterns, orm
 # cover: https://user-images.githubusercontent.com/958227/184471334-5571641a-3519-4e87-91e8-c6a65f0ef75d.png?auto=compress
@@ -85,9 +85,7 @@ Naming things is hard. But there are more problems. Not only are the extension m
 
 
 
-> #### ps:
->
-> You can find more about the topics in my curated list of online resources on [my awesome list #31][more-info]. For the complete work, see [my skol repo on GitHub][gh-repo].
+> **PS:** You can find more about the topics in my curated list of online resources on [my awesome list #31][more-info]. For the complete work, see [my skol repo on GitHub][gh-repo].
 
 [more-info]: https://github.com/kosalanuwan/journal/discussions/31
 [gh-repo]: https://github.com/kosalanuwan/skol-backend-monolithic-webapi/#readme
