@@ -7,7 +7,9 @@ cover: https://user-images.githubusercontent.com/958227/184471334-5571641a-3519-
 domain: notestoself.hashnode.dev
 ---
 
-[GitHub](https://github.com/) use to be my unicorn and now it is _my bitch_. I interact with GitHub daily, so why not use it for journaling? It makes more sense, at least for me. I’m that nerd 🤓
+[GitHub](https://github.com/) use to be my unicorn and now it is _my bitch_.
+
+I interact with GitHub more often than [Twitter](https://twitter.com/kosalanuwan) or [LinkedIn](https://www.linkedin.com/in/kosalanuwan), so why not use it for journaling? It makes more sense, at least for me. I’m that nerd 🤓
 
 
 
@@ -25,7 +27,7 @@ In case you were wondering, this journal is:
 - Built on [GitHub as Source](https://townhall.hashnode.com/start-using-github-to-publish-articles-on-hashnode), thanks to [@unclebigbay](https://hashnode.com/@unclebigbay)
 - Originally, a flavor of a [Developer Journal](https://opensource.com/article/19/4/what-developer-journal)
 
-You can find more about my work in [my GitHub Page](https://notestoself.hashnode.dev/opensource/).
+You can find more about my work om [my GitHub Page](https://notestoself.hashnode.dev/opensource/).
 
 For comments or questions, feel free to [ask me on GitHub](https://notestoself.hashnode.dev/ama), [on Twitter](https://twitter.com/kosalanuwan), or via email at kosala dot nuwan at gmail dot com.
 
