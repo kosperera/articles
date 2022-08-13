@@ -7,7 +7,7 @@ tags: backend, apis, csharp, design-patterns, orm
 domain: notestoself.hashnode.dev
 ---
 
-I like the idea of [fluent interfaces][url-fluent-interfaces]. It gives the whole thing a very *Ubiquitous* feel since the code becomes more understandable, say, two months from now like [Uncle Bob says in the Clean Code][url-clean-code].
+I like the idea of [fluent interfaces][url-fluent-interface]. It gives the whole thing a very *Ubiquitous* feel since the code becomes more understandable, say, two months from now like [Uncle Bob says in the Clean Code][url-clean-code].
 
 ```csharp
 // An example LINQ expression to get products.
@@ -75,7 +75,7 @@ I can pass in the `IQueryable<>` domain entity type as the first parameter on wh
 
 ### Describing pipes and filters
 
-Naming things is hard. But there are more problems. Not only are the extension methods should be reusable, but they must be readable. And you do want the code to scream what kind of business there is. Using a [domain-specific language][url-dsl] to describe methods seems like the right answer. Indead.
+Naming things is hard. But there are more problems. Not only are the extension methods should be reusable, but they must be understandable. And you do want the code to scream what kind of business there is. Using a [domain-specific language][url-dsl] to describe methods seems like the right answer. Indead.
 
 [url-dsl]: https://martinfowler.com/bliki/DomainSpecificLanguage.html
 
@@ -83,11 +83,11 @@ Naming things is hard. But there are more problems. Not only are the extension m
 
 /KP
 
----
 
-#### ps:
 
-You can find more about the topics in my curated list of online resources on [my awesome list #31][more-info]. For the complete work, see [my skol repo on GitHub][].
+> #### ps:
+>
+> You can find more about the topics in my curated list of online resources on [my awesome list #31][more-info]. For the complete work, see [my skol repo on GitHub][gh-repo].
 
 [more-info]: https://github.com/kosalanuwan/journal/discussions/31
-[source-code]: https://github.com/kosalanuwan/skol-backend-monolithic-webapi/#readme
+[gh-repo]: https://github.com/kosalanuwan/skol-backend-monolithic-webapi/#readme
