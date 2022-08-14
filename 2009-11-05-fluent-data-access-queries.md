@@ -3,7 +3,7 @@ title: Writing fluent data access queries
 # subtitle: Use of pipes and filters
 slug: fluent-data-access-queries
 tags: backend, apis, csharp, design-patterns, orm
-# cover: https://user-images.githubusercontent.com/958227/184523067-908c7fd3-dc54-4143-a4e1-9274776a0381.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/184523067-908c7fd3-dc54-4143-a4e1-9274776a0381.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
