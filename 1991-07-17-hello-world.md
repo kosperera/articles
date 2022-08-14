@@ -26,7 +26,7 @@ In case you were wondering, this journal is:
 - Written on a Mac in Colombo, Sri Lanka.
 - Written in [Markdown](https://support.hashnode.com/docs/markdown-guidelines) with [Typora app](https://www.typora.io/).
 - Served with [GitHub](https://github.com/kosalanuwan) on a private repo.
-- Published with [GitHub as Source](https://townhall.hashnode.com/start-using-github-to-publish-articles-on-hashnode), thanks to Ayodele ([Unclebigbay](@unclebigbay)) in Nigeria.
+- Published with [GitHub as Source](https://townhall.hashnode.com/start-using-github-to-publish-articles-on-hashnode), thanks to Ayodele (@[unclebigbay](@unclebigbay)) in Nigeria.
 - Originally, a flavor of my [Developer Journal](https://opensource.com/article/19/4/what-developer-journal).
 
 You can find more about my work om [my GitHub Page](https://notestoself.hashnode.dev/opensource/).
