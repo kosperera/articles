@@ -9,10 +9,10 @@ cover: https://user-images.githubusercontent.com/958227/184541928-6bbc34d8-e4de-
 domain: notestoself.hashnode.dev
 ---
 
-I prefer having [my own JavaScript utility belt libraries][gh-vanilla-js-snippets] as they do on [Lodash][url-lodash] and [Underscore.js][url-underscorejs], say, a stripped-down version of it, then bundled together into the `global` namespace as `_`.
+I prefer having [my own JavaScript utility belt libraries][gh-vanilla-js-snippets] as they do on [Lodash][url-lodash] and [Underscore.js][url-underscorejs], say, <mark>a stripped-down version</mark> of it, then bundled together into the `global` namespace as `_`.
 
 ```js
-// Utility `_` functions in use.
+// Utility '_' in use.
 _.format('Hello {0}!', username);
 ```
 
@@ -24,7 +24,7 @@ _.format('Hello {0}!', username);
 
 ### Stealing from the best
 
-The first thing we're going to need is a few utility libraries. Fortunately, GitHub has plenty of [JS utility libraries][gh-search-topic-utilities]. I'm not gonna lie,  [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs] code may be difficult to understand but the [Babel][gh-babel] code is wierdly insane. All I need to do is break out those code snippets I just found in individual repos to get started.
+The first thing we're going to need is a few vanilla JS utility libraries. Fortunately, GitHub has [plenty of them][gh-search-topic-utilities]. I'm not gonna lie,  [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs], and [Babel][gh-babel] code are a little intense. All I need to do is break out those code snippets I just found in individual repos to get started. Excellent.
 
 [gh-search-topic-utilities]: https://github.com/topics/utilities?l=javascript&o=desc&s=stars
 [gh-lodash]: https://github.com/lodash/lodash
@@ -36,7 +36,7 @@ The first thing we're going to need is a few utility libraries. Fortunately, Git
 
 ### Creating a js library
 
-The other thing we're going to need is a micro-library. I'm not exactly sure how the Lodash and the like are bundled to `_`, so I'm going to go ahead and say that they use a combination of [namespace][glossary-ns] and a little [polyfill][glossary-polyfill] magic to encapsulate the helper methods. Excellent.
+The other thing we're going to need is a micro-library. I'm not exactly sure how Lodash and the like are bundled to its namespaces, say, `_` , `ng`, or  `angular`, so I'm going to go ahead and say that they use a combination of [namespace][glossary-ns] and a little [polyfill][glossary-polyfill] magic to encapsulate those utility methods. Indeed.
 
 ```js
 var _ = window._ || (window._ = {});
@@ -60,7 +60,7 @@ var _ = window._ || (window._ = {});
 
 ### C#-like extension methods
 
-Next is [mixin][glossary-mixin]. Not only this require a [closure pattern][glossary-closure], but you also have to [emulate methods][glossary-emulate-methods]. It's taking a few tries to compile the script. This may be difficult. I'll come back later.
+Next is [mixin][glossary-mixin]. Not only this require a [closure pattern][glossary-closure], but you have to [emulate methods][glossary-emulate-methods]. It's taking a few tries to compile the script. This may be difficult. I'll come back later.
 
 ```js
 // Before:
@@ -78,19 +78,20 @@ if (!username.isblank()) {
 }
 ```
 
-You'd be amazed how intense it is to enable both namespace and prototype options as they do in <mark>C# Extension Methods</mark>. [@esamattis/underscore.string][gh-underscore-str] has mixin for `String` types. So I'm gonna go ahead and break out that same script and modify my utility script. Excellent.
+You'd be amazed how intense it is to enable both namespace and prototype options as they do in <mark>C# extension methods</mark>. The [@esamattis/underscore.string][gh-underscore-str] has mixin for `String` types, so I'm gonna go ahead and break out that same script and use on my utility script. Excellent.
 
 [glossary-mixin]: https://developer.mozilla.org/en-US/docs/Glossary/Mixin
 [glossary-closure]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 [glossary-emulate-methods]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Emulating_private_methods_with_closures
 [gh-underscore-str]: https://github.com/esamattis/underscore.string/blob/master/index.js#L105-L140
 
----
 
-### q.v.
 
-- See [Awesome #25][more-info] for the curated list of online resources and discussions.
-- See [vanilla-js-snippets][source-code] repo on GitHub for the complete work.
+/KP
+
+
+
+> **PS:** You can find more about the topics in my curated list of online resources on [my awesome list #25][more-info]. For the complex work, see [my vanilla-js-snippets repo on GitHub][gh-repo].
 
 [more-info]: https://github.com/kosalanuwan/journal/discussions/25
-[source-code]: https://github.com/kosalanuwan/vanilla-js-snippets/#readme
+[gh-repo]: https://github.com/kosalanuwan/vanilla-js-snippets/#readme
