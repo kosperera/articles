@@ -1,9 +1,9 @@
 ---
 title: Hello world
-subtitle: About the site
+subtitle: Written in Markdown and served with GitHub
 slug: hello-world
 tags: developer, hashnode, devlife, blogging, github, automation
-cover: https://user-images.githubusercontent.com/958227/184521909-050cd5f7-47d5-41f6-8f9f-0a96afd0bcd3.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/184522593-13b678b1-2101-445c-b300-8a4712eb1581.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
@@ -18,6 +18,8 @@ I interact with GitHub more often than [Twitter](https://twitter.com/kosalanuwan
 
 
 The truth is I tried out all those widespread notes-taking apps from Evernote to OneNote, Workflowy, Trello, Todoist, Asana, and even Notion. For the record, they all seemed great apps but this is just my personal preference.
+
+### About the site
 
 In case you were wondering, this journal is:
 
