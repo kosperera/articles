@@ -3,7 +3,7 @@ title: Hello world
 subtitle: About the site
 slug: hello-world
 tags: developer, hashnode, devlife, blogging, github, automation
-cover: https://user-images.githubusercontent.com/958227/184471334-5571641a-3519-4e87-91e8-c6a65f0ef75d.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/184521909-050cd5f7-47d5-41f6-8f9f-0a96afd0bcd3.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
