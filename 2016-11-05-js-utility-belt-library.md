@@ -5,7 +5,7 @@ slug: js-utility-belt-library
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: frontend, js, vanilla-js-1, javascript-library, lodash
+tags: frontend, js, vanilla-js-1, javascript-library, lodash, howtos
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184608671-42fa288a-e462-4e64-a1b7-a17a78db85a4.png?auto=compress
 domain: notestoself.hashnode.dev

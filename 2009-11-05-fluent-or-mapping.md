@@ -5,7 +5,7 @@ slug: fluent-or-mapping
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: backend, apis, csharp, design-patterns, orm
+tags: backend, howtos, csharp, design-patterns, orm
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633660-b853e7dc-1414-4a3d-ac34-c83f01975ccf.png?auto=compress
 domain: notestoself.hashnode.dev

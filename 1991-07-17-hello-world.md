@@ -5,7 +5,7 @@ slug: hello-world
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: developer, hashnode, devlife, blogging, github, automation
+tags: hello-world, developer, hashnode, devlife, blogging, github, automation
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633525-3ff86ab5-aeb9-4918-8587-46c1c04e7df4.png?auto=compress
 domain: notestoself.hashnode.dev

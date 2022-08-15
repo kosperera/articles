@@ -1,11 +1,11 @@
 ---
-title: Scale thyself to stay supercalafragilisticexpialidocious
-subtitle: Dealing with guilt-piles, self-loathing, and imposter syndrome
+title: Scale myself to stay supercalafragilisticexpialidocious
+subtitle: Dealing with guilt piles, self-loathing, and imposter syndrome
 slug: stay-supercalafragilisticexpialidocious
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: backend, apis, csharp, design-patterns, orm
+tags: devlife, productivity, self-improvement-1, lifestyle, mentalhealth-1, impostor-syndrome, life-hack, habits
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633287-62f739ff-c21a-4c3b-853d-07a5d238ff98.png?auto=compress
 domain: notestoself.hashnode.dev
