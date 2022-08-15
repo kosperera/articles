@@ -14,7 +14,8 @@ domain: notestoself.hashnode.dev
 I like the idea of [fluent interfaces][url-fluent-interface]. It gives the whole thing a very *Ubiquitous* feel since the code becomes more understandable, say, two months from now like [Uncle Bob says in the Clean Code][url-clean-code].
 
 ```csharp
-// An example LINQ expression to get products.
+// An example LINQ expression to filter all active products
+// that belongs to a specified supplier.
 db.Products
   .Where(p => !p.Discontinued && p.SupplierId == supplierId)
   .Take(10)
@@ -31,15 +32,9 @@ db.Products
 The first thing we are going to need is a lot of [query expressions][url-query-exp]. I can [decompose or consolidate][url-refactor-simplify-cond] query expressions so a little [extract method][url-refactor-methods] magic is all that is necessary to get started. Kids' stuff.
 
 ```csharp
-// Before: 
-// Query expression to filter all active products
-// that belongs to a specified supplier.
-db.Products.Where(p => !p.Discontinued && p.SupplierId == supplierId);
-
-// After:
 // Better readability.
 db.Products.Where(p => Active(p) && WithSupplier(p, supplierId));
-// Even better resuability.
+// Better resuability.
 db.Suppliers.Where(s => s.Products.Any(p => Active(p));
 ```
 
@@ -58,6 +53,14 @@ That seems a little better since it allows reusing the query expressions. [LINQ]
 The other thing we're going to need is chaining. And that means [extension methods][url-ext-methods]. It's slightly obnoxious that extension methods require <mark>non-nested non-generic static classes</mark>. So what does each predicate have that can be used for chaining that the fluent interface requires? `IQueryable`? 
 
 ```cs
+// Use filters to create the pipes.
+db.Products.Active()
+  				 .WithSupplier(supplierId)
+  				 .Take(10)
+  				 .ToList();
+```
+
+```csharp
 // Extension methods for `IQueryable<Product>`.
 static class IQueryableOfProduct
 {
@@ -68,9 +71,6 @@ static class IQueryableOfProduct
       	this IQueryable<Product> query, int supplierId)
       	=> query.Where(p => p.SupplierId == supplierId)
 }
-
-// After: Using the filter.
-db.Products.Active().WithSupplier(supplierId);
 ```
 
 I can pass in the `IQueryable<>` domain entity type as the first parameter on which the method must operate. All I have to do is add the `this` modifier to the parameter and the C# compiler will do the rest for me. I'm not going to lie, you'd be amazed how tricky it is and if you return the wrong type, chaining breaks and nothing gets compiled.

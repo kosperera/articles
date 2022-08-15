@@ -41,12 +41,14 @@ The first thing we're going to need is a few vanilla JS utility libraries. Fortu
 The other thing we're going to need is a micro-library. I'm not exactly sure how Lodash and the like are bundled to its namespaces, say, `_` , `ng`, or  `angular`, so I'm going to go ahead and say that they use a combination of [namespace][glossary-ns] and a little [polyfill][glossary-polyfill] magic to encapsulate those utility methods. Indeed.
 
 ```js
+// Create a public namespace.
 var _ = window._ || (window._ = {});
+// Use IIFE to load the library.
 ; (function (undefined) {
     function _format(template) {
       // TODO: String format logic must go here.
     }
-
+		// Define helper method, if not.
     if (!_.format) (function () {
         _.format = function format() {
             return _format.apply(this, arguments);
@@ -62,7 +64,7 @@ var _ = window._ || (window._ = {});
 
 ### C#-like extension methods
 
-Next is [mixin][glossary-mixin]. Not only this require a [closure pattern][glossary-closure], but you have to [emulate methods][glossary-emulate-methods]. It's taking a few tries to compile the script. This may be difficult. I'll come back later.
+Next is extention methods. And that means [mixin][glossary-mixin]. Not only this require a [closure pattern][glossary-closure], but you have to [emulate methods][glossary-emulate-methods]. It's taking a few tries to compile the script. This may be difficult. I'll come back later.
 
 ```js
 // Before:
@@ -71,7 +73,9 @@ if (!_.isblank(username)) {
 	_.format('Hello {0}!', username);
   _.toKebabCase(username);
 }
+```
 
+```javascript
 // After: 
 // Using C#-like extension methods.
 if (!username.isblank()) {
@@ -80,12 +84,14 @@ if (!username.isblank()) {
 }
 ```
 
-You'd be amazed how intense it is to enable both namespace and prototype options as they do in <mark>C# extension methods</mark>. The [@esamattis/underscore.string][gh-underscore-str] has mixin for `String` types, so I'm gonna go ahead and break out that same script and use on my utility script. Excellent.
+You'd be amazed how intense it is to enable both namespace and prototype options as they do in <mark>C# extension methods</mark>. The [Underscore.String][gh-underscore-str] library has [mixin for `String` types][gist-mixin-string], so I'm gonna go ahead and break out that same script and use on my utility script. Excellent.
 
 [glossary-mixin]: https://developer.mozilla.org/en-US/docs/Glossary/Mixin
 [glossary-closure]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 [glossary-emulate-methods]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Emulating_private_methods_with_closures
 [gh-underscore-str]: https://github.com/esamattis/underscore.string/blob/master/index.js#L105-L140
+[gh-underscore-str]: https://github.com/esamattis/underscore.string
+[gist-mixin-string]: https://github.com/esamattis/underscore.string/blob/master/index.js#L105-L140
 
 
 
