@@ -1,11 +1,11 @@
 ---
-title: Scale myself to stay supercalafragilisticexpialidocious
+title: Scaling yourself to outlast and outdo
 subtitle: Dealing with guilt piles, self-loathing, and imposter syndrome
-slug: stay-supercalafragilisticexpialidocious
+slug: scaling-yourself
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
-tags: devlife, productivity, self-improvement-1, lifestyle, mentalhealth-1, impostor-syndrome, life-hack, habits
+tags: devlife, productivity, self-improvement-1
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633287-62f739ff-c21a-4c3b-853d-07a5d238ff98.png?auto=compress
 domain: notestoself.hashnode.dev
@@ -21,7 +21,7 @@ I like the idea of keeping up with trending technologies. Not going to lie, it g
 - **Be optimistic but never be satisfied**, like *Shimon Peres* says.
 - **Jot down notes to self**, say, ideas, random thoughts, short-notes, learnings, journaling, todos and the like for future me. I can have a notebook or use a private repo on GitHub.
 - **Do less, and do more of it**. It is the standard law of scale for smooth sailing.
-- **Block myself for important work**, say, leaning new tech, reading what's new, and the like. I can use the work calendar to remind. Then I can call it research work and stop burning midnight oil.
+- **Block myself for important work**, say, learning new tech, reading what's new, and the like. I can use the work calendar to remind. Then I can call it research work and stop burning midnight oil.
 - **Multi-task only if its completely unproductive time**. I can listen to audible when traveling, watch a movie when dining, read an article when pooping, listen to podcasts when jogging, or call a friend whilst waiting.
 - **Stop reading emails as-is**. Triage them first. I can use rules and filters to sort inboxes, say, actions, invites, clients, and fyi. Then I can pay attention to the important ones.
 
