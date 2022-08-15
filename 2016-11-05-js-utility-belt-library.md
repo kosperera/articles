@@ -45,15 +45,15 @@ The other thing we're going to need is a micro-library. I'm not exactly sure how
 var _ = window._ || (window._ = {});
 // Use IIFE to load the library.
 ; (function (undefined) {
-    function _format(template) {
-      // TODO: String format logic must go here.
-    }
-		// Define helper method, if not.
-    if (!_.format) (function () {
-        _.format = function format() {
-            return _format.apply(this, arguments);
-        };
-    })();
+  function _format(template) {
+    // TODO: String format logic must go here.
+  }
+  // Define helper method, if not.
+  if (!_.format) (function () {
+    _.format = function format() {
+      return _format.apply(this, arguments);
+    };
+  })();
 })();
 ```
 
@@ -70,17 +70,17 @@ Next is extention methods. And that means [mixin][glossary-mixin]. Not only this
 // Before:
 // The utlity belt approach.
 if (!_.isblank(username)) {
-	_.format('Hello {0}!', username);
+  _.format('Hello {0}!', username);
   _.toKebabCase(username);
 }
 ```
 
-```javascript
+```js
 // After: 
 // Using C#-like extension methods.
 if (!username.isblank()) {
-	'Hello {0}!'.format(username);
-	username.toKebabCase();
+  'Hello {0}!'.format(username);
+  username.toKebabCase();
 }
 ```
 

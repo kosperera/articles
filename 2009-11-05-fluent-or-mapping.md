@@ -54,10 +54,9 @@ The other thing we're going to need is chaining. And that means [extension metho
 
 ```cs
 // Use filters to create the pipes.
-db.Products.Active()
-  				 .WithSupplier(supplierId)
-  				 .Take(10)
-  				 .ToList();
+db.Products.Active().WithSupplier(supplierId)
+  .Take(10)
+  .ToList();
 ```
 
 ```csharp
@@ -66,10 +65,9 @@ static class IQueryableOfProduct
 {
     static IQueryable<Product> Active(this IQueryable<Product> query)
         => query.Where(p => !p.Discontinued);
-  
-  	static IQueryable<Product> WithSupplier(
-      	this IQueryable<Product> query, int supplierId)
-      	=> query.Where(p => p.SupplierId == supplierId)
+    static IQueryable<Product> WithSupplier(
+        this IQueryable<Product> query, int supplierId)
+        => query.Where(p => p.SupplierId == supplierId)
 }
 ```
 
