@@ -1,9 +1,13 @@
 ---
-title: Writing fluent data access queries
+title: Write pipes and filters for fluent OR-mapping
 # subtitle: Use of pipes and filters
-slug: fluent-data-access-queries
+slug: fluent-or-mapping
+# previously published url.
+canonical: https://kosalanuwan.github.io/journal/
+# ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: backend, apis, csharp, design-patterns, orm
-cover: https://user-images.githubusercontent.com/958227/184523067-908c7fd3-dc54-4143-a4e1-9274776a0381.png?auto=compress
+# ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
+cover: https://user-images.githubusercontent.com/958227/184608269-7cff7014-fb2b-4c9f-8d8c-cefdbc5aac5b.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
