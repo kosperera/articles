@@ -1,5 +1,5 @@
 ---
-title: Scaling yourself to outlast and outdo
+title: Scaling yourself to outlast and outdo yourself
 subtitle: Dealing with guilt piles, self-loathing, and imposter syndrome
 slug: scaling-yourself
 # previously published url.
