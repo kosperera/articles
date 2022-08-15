@@ -7,7 +7,7 @@ canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: devlife, productivity, self-improvement-1
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
-cover: https://user-images.githubusercontent.com/958227/184633287-62f739ff-c21a-4c3b-853d-07a5d238ff98.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/184633355-97d2e345-6f18-412b-b957-f94a5927fa91.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
