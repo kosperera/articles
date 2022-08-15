@@ -1,5 +1,5 @@
 ---
-title: Writing a Lodash-like JS utility belt library
+title: Write a Lodash-like JS utility belt library
 # subtitle: optional catchy phrase for the post
 slug: js-utility-belt-library
 # previously published url.

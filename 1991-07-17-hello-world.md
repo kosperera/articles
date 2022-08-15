@@ -7,7 +7,7 @@ canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: developer, hashnode, devlife, blogging, github, automation
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
-cover: https://user-images.githubusercontent.com/958227/184607991-7fca6f1b-481e-4cd2-ba42-92934a5edac2.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/184633525-3ff86ab5-aeb9-4918-8587-46c1c04e7df4.png?auto=compress
 domain: notestoself.hashnode.dev
 ---
 
