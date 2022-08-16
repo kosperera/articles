@@ -26,7 +26,7 @@ _.format('Hello {0}!', username);
 
 ### Stealing from the best
 
-The first thing we're going to need is a few vanilla JS utility libraries. Fortunately, GitHub has [plenty of them][gh-search-topic-utilities]. I'm not gonna lie,  [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs], and [Babel][gh-babel] code are a little intense. All I need to do is break out those code snippets I just found in individual repos to get started. Excellent.
+The first thing we're going to need is a few vanilla JS utility libraries. Fortunately, [GitHub has plenty of them][gh-search-topic-utilities]. All I need to do is break out those JS code snippets I just found in individual repos to get started. Excellent.
 
 [gh-search-topic-utilities]: https://github.com/topics/utilities?l=javascript&o=desc&s=stars
 [gh-lodash]: https://github.com/lodash/lodash
@@ -36,9 +36,9 @@ The first thing we're going to need is a few vanilla JS utility libraries. Fortu
 
 
 
-### Creating a js library
+### Creating a micro-library
 
-The other thing we're going to need is a micro-library. I'm not exactly sure how Lodash and the like are bundled to its namespaces, say, `_` , `ng`, or  `angular`, so I'm going to go ahead and say that they use a combination of [namespace][glossary-ns] and a little [polyfill][glossary-polyfill] magic to encapsulate those utility methods. Indeed.
+The other thing we're going to need is a micro-library. I'm not gonna lie, [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs], [Babel][gh-babel] et al are a little intense, and I am way too lazy to go thru each one to adopt a module pattern. Using a [namespace][glossary-ns] pattern with a little [polyfill][glossary-polyfill] magic seems like the answer. Indeed.
 
 ```js
 // Create a public namespace.
@@ -84,7 +84,7 @@ if (!username.isblank()) {
 }
 ```
 
-You'd be amazed how intense it is to enable both namespace and prototype options as they do in <mark>C# extension methods</mark>. The [Underscore.String][gh-underscore-str] library has [mixin for `String` types][gist-mixin-string], so I'm gonna go ahead and break out that same script and use on my utility script. Excellent.
+You'd be amazed how tricky it is to enable both namespace and prototype options as they do in <mark>C# extension methods</mark>. The [Underscore.String][gh-underscore-str] library has [mixin for `String` types][gist-mixin-string], so I'm gonna go ahead and break out that same script and use on my utility script. Excellent.
 
 [glossary-mixin]: https://developer.mozilla.org/en-US/docs/Glossary/Mixin
 [glossary-closure]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
@@ -99,7 +99,7 @@ You'd be amazed how intense it is to enable both namespace and prototype options
 
 
 
-> **PS:** You can find more about the topics in my curated list of online resources on [my awesome list #25][more-info]. For the complex work, see [my vanilla-js-snippets repo on GitHub][gh-repo].
+> **PS:** You can find more about the topic in my curated list of online resources on [my awesome list #25][more-info]. For the complete work, see [my vanilla-js-snippets repo on GitHub][gh-repo].
 
 [more-info]: https://github.com/kosalanuwan/journal/discussions/25
 [gh-repo]: https://github.com/kosalanuwan/vanilla-js-snippets/#readme
