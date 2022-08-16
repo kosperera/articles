@@ -11,16 +11,21 @@ cover: https://user-images.githubusercontent.com/958227/184633355-97d2e345-6f18-
 domain: notestoself.hashnode.dev
 ---
 
-I like the idea of keeping up with trending technologies. Not going to lie, it gives a very *MVP* feel. Easy enuf, except guilt piles, self-loathing, and imposter syndrome are endemic in tech communities. I need to learn to outlast and outdo myself to stay <mark>supercalafragilisticexpialidocious</mark>. Unfortunately, you can only boil so many oceans at the same time.
+I like the idea of [Polymathy][tedtalk-polymathy]. Not going to lie, it gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, you can only boil so many oceans at the same time. I need to learn to outdo myself and outlast myself. Easy enuf, except <mark>guilt piles, self-loathing, and imposter syndrome</mark> are endemic in tech communities.
+
+[tedtalk-polymathy]: https://www.youtube.com/watch?v=kEk-BDckjW4
+[tedtalk-multipotentialite]: https://www.youtube.com/watch?v=4sZdcB6bjI8
+
+
 
 ### Dealing with my demons
 
 - **Stop snoozing the morning alarm**. And if I didn't get enuf sleep, I am going to have to try to sleep faster next time.
-- **Stop checking the phone** during the first hour of the day. Its not going to go anywhere.
+- **Stop checking the phone** during the first hour of the day. It's not going to go anywhere.
 - **Stop checking emails** in the morning or night. Unless my primary job is deleting emails, it can wait till brunch or afternoon.
 - **Be optimistic but never be satisfied**, like *Shimon Peres* says.
 - **Jot down notes to self**, say, ideas, random thoughts, short-notes, learnings, journaling, todos and the like for future me. I can have a notebook or use a private repo on GitHub.
-- **Do less, and do more of it**. It is the standard law of scale for smooth sailing.
+- **Do less, and do more of it**. It is the standard law of scale for smooth sailing. A secret sauce to outlast.
 - **Block myself for important work**, say, learning new tech, reading what's new, and the like. I can use the work calendar to remind. Then I can call it research work and stop burning midnight oil.
 - **Multi-task only if its completely unproductive time**. I can listen to audible when traveling, watch a movie when dining, read an article when pooping, listen to podcasts when jogging, or call a friend whilst waiting.
 - **Stop reading emails as-is**. Triage them first. I can use rules and filters to sort inboxes, say, actions, invites, clients, and fyi. Then I can pay attention to the important ones.
