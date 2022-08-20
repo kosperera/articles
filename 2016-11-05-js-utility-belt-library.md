@@ -11,7 +11,7 @@ cover: https://user-images.githubusercontent.com/958227/184608671-42fa288a-e462-
 domain: notestoself.hashnode.dev
 ---
 
-I prefer having [my own JavaScript utility belt libraries][gh-vanilla-js-snippets] as they do on [Lodash][url-lodash] and [Underscore.js][url-underscorejs], say, <mark>a stripped-down version</mark> of it, then bundled together into the `global` namespace as `_`.
+I prefer having [my own JavaScript utility belt libraries][gh-vanilla-js-snippets], say, a <mark>stripped-down version</mark> of [Lodash][url-lodash] or [Underscore.js][url-underscorejs], then bundled together into the `global` namespace as `_`.
 
 ```js
 // Utility '_' in use.
@@ -36,9 +36,9 @@ The first thing we're going to need is a few vanilla JS utility libraries. Fortu
 
 
 
-### Creating a micro-library
+### Creating a nano-library
 
-The other thing we're going to need is a micro-library. I'm not gonna lie, [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs], [Babel][gh-babel] et al are a little intense, and I am way too lazy to go thru each one to adopt a module pattern. Using a [namespace][glossary-ns] pattern with a little [polyfill][glossary-polyfill] magic seems like the answer. Indeed.
+The other thing we're going to need is a nano-library. I'm not gonna lie, [Lodash][gh-lodash], [Underscore.js][gh-underscorejs], [Angular.js][gh-angularjs], [Babel][gh-babel] et al are a little intense, and I am way too lazy to go thru each one to adopt a module pattern. Using a [namespace][glossary-ns] pattern with a little [polyfill][glossary-polyfill] magic seems like the answer. Indeed.
 
 ```js
 // Create a public namespace.
