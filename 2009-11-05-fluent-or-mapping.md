@@ -8,7 +8,7 @@ canonical: https://kosalanuwan.github.io/journal/
 tags: backend, csharp, net, orm
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633660-b853e7dc-1414-4a3d-ac34-c83f01975ccf.png?auto=compress
-domain: notestoself.hashnode.dev
+domain: keepontruckin.hashnode.dev
 ---
 
 I like the idea of [fluent interfaces][url-fluent-interface]. It gives the whole thing a very *Ubiquitous* feel since the code becomes more understandable, say, two months from now like [Uncle Bob says in the Clean Code][url-clean-code].

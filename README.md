@@ -1,4 +1,9 @@
-# Hashnode-source-from-github-template
+# Keep on Truckin'
+
+> **Note**
+>
+> I'll come back to this later. For the moment, just pay a visit to the Hashnode [blog](keepontrukin.hashnode.dev).
+
 A template with boilerplate structure for Hashnode's Github as source feature
 
 Please note: A **README.md** at the root is always ignored.
@@ -33,7 +38,7 @@ ignorePost: true
 ---
 
 Enter article body here
-```        
+```
 *   List of tags can be found here https://github.com/Hashnode/support/blob/main/misc/tags.json
 *   Make sure you haven't included **ignorePost** in the frontmatter by mistake.
 *   Uninstalling app via Github will remove it from all the publications that the repo was connected to. If you want to specifically remove the installation from a particular publication, do it from it's Dashboard (Integrations section).

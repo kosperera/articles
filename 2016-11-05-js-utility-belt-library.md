@@ -8,7 +8,7 @@ canonical: https://kosalanuwan.github.io/journal/
 tags: frontend-frameworks, frontend-development, javascript, javascript-library
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184608671-42fa288a-e462-4e64-a1b7-a17a78db85a4.png?auto=compress
-domain: notestoself.hashnode.dev
+domain: keepontruckin.hashnode.dev
 ---
 
 I prefer having [my own JavaScript utility belt libraries][gh-vanilla-js-snippets], say, a <mark>stripped-down version</mark> of [Lodash][url-lodash] or [Underscore.js][url-underscorejs], then bundled together into the `global` namespace as `_`.
@@ -101,5 +101,5 @@ You'd be amazed how tricky it is to enable both namespace and prototype options 
 
 > **PS:** You can find more about the topic in my curated list of online resources on [my awesome list #25][more-info]. For the complete work, see [my vanilla-js-snippets repo on GitHub][gh-repo].
 
-[more-info]: https://github.com/kosalanuwan/journal/discussions/25
+[more-info]: https://github.com/kosalanuwan/keep-on-truckin/discussions/#readme
 [gh-repo]: https://github.com/kosalanuwan/vanilla-js-snippets/#readme

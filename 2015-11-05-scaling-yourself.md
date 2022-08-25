@@ -8,7 +8,7 @@ canonical: https://kosalanuwan.github.io/journal/
 tags: devlife, productivity, self-improvement-1
 # ref: https://github.com/kosalanuwan/hn-blogs-notes-to-self/issues
 cover: https://user-images.githubusercontent.com/958227/184633355-97d2e345-6f18-412b-b957-f94a5927fa91.png?auto=compress
-domain: notestoself.hashnode.dev
+domain: keepontruckin.hashnode.dev
 ---
 
 I like the idea of [Polymathy][tedtalk-polymathy]. Not going to lie, it gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, you can only boil so many oceans at the same time. I need to learn to outdo myself and outlast myself. Easy enuf, except <mark>guilt piles, self-loathing, and imposter syndrome</mark> are endemic in tech communities.
@@ -59,5 +59,5 @@ I like the idea of [Polymathy][tedtalk-polymathy]. Not going to lie, it gives a 
 
 > **PS:** You can find more about this topics, recommended readings, practices, guides, and inspiration in my curated list of resources on [my awesome list #35][more-info].
 
-[more-info]: https://github.com/kosalanuwan/journal/discussions/35
+[more-info]: https://github.com/kosalanuwan/keep-on-truckin/discussions/#readme
 
