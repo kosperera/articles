@@ -89,5 +89,6 @@ Naming things is hard. But there are more problems. Not only are the extension m
 
 > **PS:** You can find more about the topics in my curated list of online resources on [my awesome list #31][more-info]. For the complete work, see [my skol repo on GitHub][gh-repo].
 
-[more-info]: https://github.com/kosalanuwan/journal/discussions/31
+[more-info]: https://github.com/kosalanuwan/keep-on-truckin/discussions/#readme
+
 [gh-repo]: https://github.com/kosalanuwan/skol-backend-monolithic-webapi/#readme
