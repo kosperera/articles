@@ -15,14 +15,14 @@ I'm not going to write yet another jQuery library but I like the idea of having 
 
 [nano-dom-js]: https://github.com/kosalanuwan/vanilla-js-snippets/tree/main/helper-jquery-nano
 
-The first thing we're going to need is a global identifier, say, `$` and `jqNano`. The other thing we're going to need is the support for [JS module bunlders and loaders][what-is-udm]. Unfortunately, JavaScript coding styles are [very opinionated][style-guides], so I am going to have to collect the bits and prices from individual repos that are in.
+The first thing we're going to need is a global identifier, say, `$` and `jqNano`. The other thing we're going to need is the support for [JS module bundlers and loaders][what-is-udm]. Unfortunately, JavaScript coding styles are [very opinionated][style-guides], so I am going to have to collect the bits and prices from individual repos that are in.
 
 > **Note**
 >
 > I'm not exactly sure why or how jQuery came up with the idea of [the `$` in JavaScript][what-is-dollar-sign-in-js].
 
 [what-is-dollar-sign-in-js]: https://www.quora.com/What-does-mean-in-JavaScript-2/answer/Andrew-Smith-1766
-[what-is-umd]: https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
+[what-is-udm]: https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
 [style-guides]: https://javascript.info/coding-style#style-guides
 
 
