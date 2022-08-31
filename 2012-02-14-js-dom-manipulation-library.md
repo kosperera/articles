@@ -36,6 +36,18 @@ The first thing we're going to need is a [global][what-is-global] [identifier][w
 
 First up is structure for each JS library. [jQuery's Core Style Guide][jquery-style-guide] recommend maintaining JS libraries with [full-file closures][jquery-style-guide-modules], so a little [anonymous closure][what-is-anonymous-closure] magic is all that is necessary to get started. Kids' stuff. 
 
+```js
+// sq.js
+!(function (global, undefined) {
+  'use strict';
+  
+  // Keep on truckin'
+  
+})(this);
+```
+
+
+
 [jquery-style-guide]: https://contribute.jquery.org/style-guide/js/
 [jquery-style-guide-modules]: https://contribute.jquery.org/style-guide/js/#full-file-closures
 [what-is-anonymous-closure]: https://web.archive.org/web/20171124074544/http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
@@ -44,9 +56,28 @@ First up is structure for each JS library. [jQuery's Core Style Guide][jquery-st
 
 ### Defining the modules and helpers
 
-Next on the list is composing the helpers as modules. And that means module augmentation. I can import the module, add props and members, then export it. But there's more to do. I need to manage private state.
+Next on the list is composing the modules and the helpers. And that means module augmentation. I can import the module, add props and members, then export it. But there's more to do. I need to manage private state.
 
-[Idiomatic Style Guide][idiomatic-style-guide] recommend encapsulating [internals and private states][idiomatic-style-guide-modules] of the module when implementing JS libraries. And that means [revealing module pattern][what-is-revealing-module-pattern]. All I need to do is declare `jqNano` as the global identifier `$` as its alias. But there are problems. They may have already been declared by another module alongside.
+```js
+ !(function (window, undefined) {
+   'use strict';
+   
+   function JQNano(options) {
+     var self = this;
+     self.options = options || {};
+     
+     // Keep on truckin'
+     
+     return self;
+   }
+   
+   window.JQNano = window.$ = JQNano;
+})(window);
+```
+
+
+
+[Idiomatic Style Guide][idiomatic-style-guide] recommend encapsulating [internals and private states][idiomatic-style-guide-modules] of the module when implementing JS libraries. And that means [revealing module pattern][what-is-revealing-module-pattern]. All I need to do is declare `jqNano` as the global identifier and `$` as its alias. But there are problems. They may have already been declared by another module alongside.
 
 [idiomatic-style-guide]: https://github.com/rwaldron/idiomatic.js
 [idiomatic-style-guide-modules]: https://github.com/rwaldron/idiomatic.js#practical
@@ -58,6 +89,28 @@ Next on the list is composing the helpers as modules. And that means module augm
 
 [AngularJS][angular-js] is interesting. They [use jQuery if present][angular-js-use-jquery-if-found], otherwise default to [jqLite][angular-js-jqlite], a stripped-down version of their own. I'm not exactly sure how this [polyfill pattern][what-is-polyfill] fits into this scenario since it would require both libraries to follow the exact method signatures. That seems a little hard to manage and you do want to use `jqNano` alongside without giving away completely. Writing loose augmented modules to take care of that seems like the right pattern. But there's more to it.
 
+```js
+!(function (global, factory, undefined) {
+  'use strict';
+  
+  factory(global);
+  
+})(window || global || this, function(window, undefined) {
+  
+  if (!window.JQNano) (function() {
+    window.JQNano = function JQNano(options) {
+      // Keep on truckin'
+    };
+  })();
+  
+  if (!window.$) (function() {
+    window.$ = window.JQNano;
+  })();
+});
+```
+
+
+
 [angular-js]: https://github.com/angular/angular.js
 [angular-js-use-jquery-if-found]: https://github.com/angular/angular.js/blob/master/src/Angular.js#L1901-L1951
 [angular-js-jqlite]: https://github.com/angular/angular.js/blob/master/src/jqLite.js#L318
@@ -66,6 +119,33 @@ Next on the list is composing the helpers as modules. And that means module augm
 
 
 [AirBnB JavaScript Style Guide][airbnb-style-guide] encourage [writing modules][airbnb-style-guide-modules] with a `noConflict` method to resolve module conflicts. jQuery too [advise][jquery-no-conflict] to resolve its alias `$` by calling the `.noConflict()`. So how is jQuery library handling `noClonflict`? [Time to break out jQuery and peek into that script.][jquery-v1]
+
+```js
+!(function (global, factory, undefined) {
+  'use strict';
+  
+  factory(global);
+  
+})(window || global || this, function(window, undefined) {
+  function JQNano(options) {
+    // Keep on truckin'
+  }
+  
+  var jqNano_ = window.JQNano;
+  var $_ = window.$;
+  
+  JQNano.noConflict = function noConflict() {
+    if (window.$ === JQNano) { window.$ = $_; }
+    if (window.JQNano === JQNano) { window.JQNano = jqNano_; }
+    
+    return JQNano;
+  };
+  
+  return window.JQNano = window.$ = JQNano;
+});
+```
+
+
 
 > **Note**
 >
@@ -86,6 +166,33 @@ Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo
 >
 > [jQuery library][jquery-v1] register as a named AMD module for global import and module export. Then they get the `jQuery` instance from the module for CommonJS-like environments that contains a proper `window` instance.
 
+```js
+!(function(global, factory, undefined) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD.
+    define('jqnano', [], factory);
+  } else if (typeof module === 'object' && module.exports) {
+    // Node/CommonJS.
+    module.exports = global.document
+    	? factory(global)
+    	: function(window) {
+      	if (!window.document) { 
+          throw new Error('jqNano requires a real window with a document.'); 
+        }
+      
+      	return factory(window);
+    	};
+  } else {
+    // Browser global.
+    factor(global);
+  }
+})(window || global || this, function(window, undefined) {
+  // Keep on truckin'
+});
+```
+
+
+
 [umd-js-templates]: https://github.com/umdjs/umd
 [umd-js-jquery-template]: https://github.com/umdjs/umd/blob/master/templates/jqueryPlugin.js
 
@@ -97,7 +204,24 @@ This may be confusing. I'll come back later.
 
 ### Mixing with native DOM
 
-Another thing we're going to need is [chaining][what-is-chaining] functions with [native DOM elements][what-is-native-dom]. And that means [mixin][what-is-mixin]. It is basically same as [C#-like extension methods][what-is-extension-methods-in-csharp] for native DOM. I'm not going to lie, you'd be amazed how difficult it is to find the pieces and if you bind to the wrong DOM element, chaining breaks then nothing works. There's no way I'm going to go thru 100s of DOM elements to bind methods one element at a time. So it's definitely necessary to break out helper functions and modify that to bind in interface or abstract level.
+Another thing we're going to need is [chaining][what-is-chaining] functions with [native DOM elements][native-browser-api]. And that means [mixin][what-is-mixin]. It is basically same as [C#-like extension methods][what-is-extension-methods-in-csharp] for native DOM. I'm not going to lie, you'd be amazed how difficult it is to find the pieces and if you bind to the wrong DOM element, chaining breaks, then nothing works.
+
+```js
+if (!Element.prototype.on) (function () {
+  Element.prototype.on = function (type, listener, useCapture) {
+    console.assert(type && typeof type === 'string', '{type} must be a type of {String}.');
+    console.assert(listener && typeof listener === 'function', '{listener} must be a type of {Function}.');
+
+    this.addEventListener(type, listener, !!useCapture);
+
+    return this;
+  };
+})();
+```
+
+
+
+There's no way I'm going to go thru 100s of DOM elements to bind methods one element at a time. So it's definitely necessary to break out helper functions and modify that to bind in interface or abstract level.
 
 [what-is-chaining]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 [what-is-mixin]: https://developer.mozilla.org/en-US/docs/Glossary/Mixin
