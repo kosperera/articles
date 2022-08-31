@@ -78,7 +78,7 @@ Next on the list is composing the helpers as modules. And that means module augm
 
 
 
-### Dealing with module bundlers and loaders
+### Supporting module bundlers and loaders
 
 Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo][umd-js-templates] has templates with variants that works everywhere. I can use [jqueryPlugin.js][umd-js-jquery-template] template for starters but the script literally depends on jQuery. So how is jQuery handling module bundlers and loaders?
 
