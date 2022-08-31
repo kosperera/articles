@@ -14,11 +14,11 @@ domain: keepontruckin.hashnode.dev
 I'm not going to write yet another jQuery library but I like the idea of having [my own collection of helper functions][nano-dom-js], say, a <mark>stripped-down version</mark> of big jQuery-ish libraries. Think of it as a mix and match of [native browser API][native-browser-api] calls for DOM manipulation.
 
 [nano-dom-js]: https://github.com/kosalanuwan/vanilla-js-snippets/tree/main/helper-jquery-nano
-[what-is-native-dom]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+[native-browser-api]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
 
 
-The first thing we're going to need is a [global][what-is-global] [identifier][what-is-namespace] for the nano-library, say, `jqNano`, and an alias like `$`. The other thing we're going to need is the support for [JS module bundlers and loaders][what-is-umd]. Unfortunately, JavaScript coding styles are [very opinionated][style-guides], so I am going to have to pick up bits and pieces from individual repos that are in.
+The first thing we're going to need is a [global][what-is-global] [identifier][what-is-namespace] for the nano-library, say, `jqNano`, and an alias like `$`. The other thing we're going to need is the support for [JS module bundlers and loaders][what-is-umd]. Unfortunately, JavaScript coding styles are [very opinionated][style-guides], so I am going to have to pick up the bits and pieces from individual repos that are in.
 
 > **Note**
 >
@@ -44,7 +44,9 @@ First up is structure for each JS library. [jQuery's Core Style Guide][jquery-st
 
 ### Defining the modules and helpers
 
-Next on the list is private state for modules. [Idiomatic Style Guide][idiomatic-style-guide] recommend encapsulating [internals and private states][idiomatic-style-guide-modules] of the module when implementing JS libraries. And that means [revealing module pattern][what-is-revealing-module-pattern]. All I need to do is declare `jqNano` as the global identifier `$` as its alias. But there are problems. They may have already been declared by another module alongside.
+Next on the list is composing the helpers as modules. And that means module augmentation. I can import the module, add props and members, then export it. But there's more to do. I need to manage private state.
+
+[Idiomatic Style Guide][idiomatic-style-guide] recommend encapsulating [internals and private states][idiomatic-style-guide-modules] of the module when implementing JS libraries. And that means [revealing module pattern][what-is-revealing-module-pattern]. All I need to do is declare `jqNano` as the global identifier `$` as its alias. But there are problems. They may have already been declared by another module alongside.
 
 [idiomatic-style-guide]: https://github.com/rwaldron/idiomatic.js
 [idiomatic-style-guide-modules]: https://github.com/rwaldron/idiomatic.js#practical
@@ -67,9 +69,7 @@ Next on the list is private state for modules. [Idiomatic Style Guide][idiomatic
 
 > **Note**
 >
-> jQuery's module identifier is `jQuery` and the `$` is the short-hand for it, an alias. I can call `noConflict` and jQuery will restore the previous module for me, say, a variant of jQuery from the multiverse that is been used alongside.
-
-This may be difficult. I'll come back later.
+> jQuery's module identifier is `jQuery`, and `$` is the short-hand for it, an alias. I can call `noConflict` and jQuery will restore the previous module for me, say, a variant of jQuery from the multiverse that is been used alongside.
 
 [airbnb-style-guide]: https://github.com/airbnb/javascript/tree/es5-deprecated/es5
 [airbnb-style-guide-modules]: https://github.com/airbnb/javascript/tree/es5-deprecated/es5#modules
@@ -80,14 +80,18 @@ This may be difficult. I'll come back later.
 
 ### Dealing with module bundlers and loaders
 
-Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo][umd-js-snippets] has templates with variants that works everywhere. I can use [jqueryPlugin.js][umd-js-] template for starters but the script literally depends on jQuery. So how is jQuery handling module bundlers and loaders?
+Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo][umd-js-templates] has templates with variants that works everywhere. I can use [jqueryPlugin.js][umd-js-jquery-template] template for starters but the script literally depends on jQuery. So how is jQuery handling module bundlers and loaders?
 
 > **Note**
 >
-> [jQuery library][jquery-v1] register as a named AMD module for global export and they get the `jQuery` instance from the module for CommonJS-like environments that contains a proper `window` instance.
+> [jQuery library][jquery-v1] register as a named AMD module for global import and module export. Then they get the `jQuery` instance from the module for CommonJS-like environments that contains a proper `window` instance.
 
 [umd-js-templates]: https://github.com/umdjs/umd
 [umd-js-jquery-template]: https://github.com/umdjs/umd/blob/master/templates/jqueryPlugin.js
+
+
+
+This may be confusing. I'll come back later.
 
 
 
