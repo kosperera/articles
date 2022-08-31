@@ -177,8 +177,8 @@ Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo
     	? factory(global)
     	: function(window) {
       	if (!window.document) {
-          throw new Error('jqNano requires a real window with a document.');
-        }
+					throw new Error('jqNano requires a real window with a document.');
+				}
       
       	return factory(window);
     	};
