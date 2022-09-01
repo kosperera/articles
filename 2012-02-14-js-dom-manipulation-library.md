@@ -37,7 +37,7 @@ The first thing we're going to need is a [global][what-is-global] [identifier][w
 First up is structure for each JS library. [jQuery's Core Style Guide][jquery-style-guide] recommend maintaining JS libraries with [full-file closures][jquery-style-guide-modules], so a little [anonymous closure][what-is-anonymous-closure] magic is all that is necessary to get started. Kids' stuff. 
 
 ```js
-// sq.js
+// qs.js
 !(function (global, undefined) {
   'use strict';
   
@@ -167,6 +167,7 @@ Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo
 > [jQuery library][jquery-v1] register as a named AMD module for global import and module export. Then they get the `jQuery` instance from the module for CommonJS-like environments that contains a proper `window` instance.
 
 ```js
+// qs.js
 !(function(global, factory, undefined) {
   if (typeof define === 'function' && define.amd) {
     // AMD.
