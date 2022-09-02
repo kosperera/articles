@@ -61,7 +61,7 @@ This covers a lot of ground and can be challenging enuf. Unfortunately, you can 
 
 ### Style Guide
 
-Yes, a homegrown standards and conventions isn't such a great idea. The major issue is that it would demand an intense concentration to keep up with each tech stack without giving away the *[egalitarian culture](#etiquette)* completely since you would want to *Dictate-It-All*. And you do want contributors to maintain consistancy of the code. This may be difficult. I need a <mark>community-adept style guide</mark> to start with.
+Yes, a homegrown standards and conventions isn't such a great idea. The major issue is that it would demand an intense concentration to keep up with each tech stack without giving away the *[egalitarian culture](#heading-etiquette)* completely since you would want to *Dictate-It-All*. And you do want contributors to maintain consistancy of the code. This may be difficult. I need a <mark>community-adept style guide</mark> to start with.
 
 
 
