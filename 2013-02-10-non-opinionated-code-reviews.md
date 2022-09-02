@@ -76,6 +76,8 @@ A pull request won't get reviewed itself. And a contributor must intervene at so
 
 ### Summary
 
+<img class="img-responsive img-comic" alt="Your specifications are weak - Dilbert by Scott Adams" src="https://assets.amuniversal.com/371118406cbc01301d46001dd8b71c47" width="100%">
+
 All we need is non-opinionated guidelines for all kinds of contributors, so in doing a code review, you should value for:
 
 - <mark>Technical facts and data</mark> over opinions and personal preferences.
