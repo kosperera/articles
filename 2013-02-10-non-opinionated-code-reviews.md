@@ -53,6 +53,8 @@ Once the pull request is ready to review, they have to describe it, specifically
 
 ### Design and Health
 
+<img class="img-responsive img-comic" alt="Its the holy grail of technology - Dilbert by Scott Adams" src="https://assets.amuniversal.com/268f57809f72012f2fe600163e41dd5b" width="100%">
+
 This covers a lot of ground and can be challenging enuf. Unfortunately, you can only boil so many oceans at the same time, so what does each reviewer should look for in a pull request? In general, _readability and maintainability_ would hint a few mistakes here and there, but there are more to review.
 
 - Intended functionality and the design.
@@ -80,7 +82,7 @@ A pull request won't get reviewed itself. And a contributor must intervene at so
 
 ### Summary
 
-<img class="img-responsive img-comic" alt="Your specifications are weak - Dilbert by Scott Adams" src="https://assets.amuniversal.com/371118406cbc01301d46001dd8b71c47" width="100%">
+<img class="img-responsive img-comic" alt="Too Dumb To Understand - Dilbert by Scott Adams" src="https://assets.amuniversal.com/dc424c1016c20134707c005056a9545d" width="100%">
 
 All we need is non-opinionated guidelines for all kinds of contributors, so in doing a code review, you should value for:
 
