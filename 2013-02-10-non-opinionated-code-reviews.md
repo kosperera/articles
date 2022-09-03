@@ -25,7 +25,11 @@ The first thing we're going to need is a contributor etiquette. I like the idea 
 
 ### Workflow
 
-The next is the release engineering strategy. All we need is a version control and [git][docs-git-scm] is the mainstream tool for that. But [some of the branching strategies are pretty horrendous][docs-gitflow] so you have to <mark>keep branch integrations to minimum</mark>. [Trunk-based development][site-tbd] seems extraordinarily uncomplicated but there are more to consider.
+The next is the release engineering strategy. All we need is a version control tool and [git][docs-git-scm] is the mainstream thingy for that. But [some of the branching strategies are pretty horrendous][docs-gitflow] so you have to <mark>keep the branch integrations to minimum</mark>.
+
+<img class="img-responsive img-comic" alt="Using Git - Dilbert by Scott Adams" src="https://assets.amuniversal.com/ddf1fa20315201378d0e005056a9545d" width="100%">
+
+[Trunk-based development][site-tbd] seems extraordinarily uncomplicated but there are more to consider.
 
 - Branch policies for protecting the default branch.
 - Naming conventions for branches.
