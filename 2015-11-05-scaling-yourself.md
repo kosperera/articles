@@ -1,6 +1,6 @@
 ---
 title: Scaling yourself to outdo yourself
-subtitle: Dealing with guilt piles, self-loathing, and imposter syndrome
+subtitle: There's only a finite number of weeks yet to live
 slug: scaling-yourself
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
@@ -11,12 +11,11 @@ cover: https://zpyyya.bl.files.1drv.com/y4mVOSdmLfQFRHx5cQmMsz0lOsTQia_ioUf94HNY
 domain: keepontruckin.hashnode.dev
 ---
 
-I like the idea of [Polymathy][tedtalk-polymathy]. Not going to lie, it gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, you can only boil so many oceans at the same time. I need to learn to outdo myself and outlast myself. Easy enuf, except <mark>guilt piles, self-loathing, and imposter syndrome</mark> are endemic in tech communities.
+I love the idea of [Polymathy][tedtalk-polymathy]. It gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, there's only a [finite number of weeks yet to live till I die][weeksleft] and I can only boil so many oceans at the same time. I need to learn to outdo myself and outlast myself. Easy enuf, except <mark>guilt piles, self-loathing, procastination, and imposter syndrome</mark> are endemic in tech communities.
 
 [tedtalk-polymathy]: https://www.youtube.com/watch?v=kEk-BDckjW4
 [tedtalk-multipotentialite]: https://www.youtube.com/watch?v=4sZdcB6bjI8
-
-
+[weeksleft]: https://www.failflow.com/die/2250
 
 ### Dealing with my demons
 
@@ -36,7 +35,7 @@ I like the idea of [Polymathy][tedtalk-polymathy]. Not going to lie, it gives a 
 - **Adopt an infinite leadership mindset**, like *Simon Sinek explains in The Infinite Game*.
 - **Delegate or outsource work** that is not worthy of my time, say, cleaning, cooking, gardening, laundering. I can ask an aggregator to do the work. And then make the best use of that time.
 - **Limit emails for 3-5 sentences**. Not only is where my keystrokes die but they are buried inside a blackhole.
-- **Stop tweeting threads and lengthy emails**. I can put that content elsewhere, say, blikies, faq, docs, git repos, gists and the like. And then share the link instead.
+- **Stop tweeting threads and lengthy emails**. I can put that content elsewhere, say, any place with a url: blikies, faq, docs, git repos, gists and the like. And then share the link instead.
 - **Stop getting advise** from people who don't have skin on the game. And if I fail, they would not care.
 - **Hangout with people who are better than me**, like *Warren Buffett* says.
 
