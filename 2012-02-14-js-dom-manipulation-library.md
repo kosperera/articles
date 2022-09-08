@@ -16,7 +16,7 @@ I'm not going to write yet another jQuery library but I like the idea of having 
 [nano-dom-js]: https://github.com/kosalanuwan/vanilla-js-snippets/tree/main/helper-jquery-nano
 [native-browser-api]: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
-
+<img class="img-responsive img-comic" alt="Movie about coffee - Dilbert by Scott Adams" src="https://assets.amuniversal.com/c73b57406cc901301d50001dd8b71c47" width="100%">
 
 The first thing we're going to need is a [global][what-is-global] [identifier][what-is-namespace] for the nano-library, say, `jqNano`, and an alias like `$`. The other thing we're going to need is the support for [JS module bundlers and loaders][what-is-umd]. Unfortunately, JavaScript coding styles are [very opinionated][style-guides], so I am going to have to pick up the bits and pieces from individual repos that are in.
 
@@ -159,6 +159,8 @@ Next on the list is composing the modules and the helpers. And that means module
 
 
 ### Supporting module bundlers and loaders
+
+<img class="img-responsive img-comic" alt="A test script to test Dilberts test script - Dilbert by Scott Adams" src="https://assets.amuniversal.com/64a5e1b036e9012ea5cb00163e41dd5b" width="100%">
 
 Next up is bundlers and loaders. That means [UMD][what-is-umd] and the [umd repo][umd-js-templates] has templates with variants that works everywhere. I can use [jqueryPlugin.js][umd-js-jquery-template] template for starters but the script literally depends on jQuery. So how is jQuery handling module bundlers and loaders?
 
