@@ -13,7 +13,7 @@ domain: keepontruckin.hashnode.dev
 
 [GitHub](https://github.com/) used to be my unicorn and now it is _my bitch_.
 
-I interact with GitHub more often than [Twitter](https://twitter.com/kosalanuwan) or [LinkedIn](https://www.linkedin.com/in/kosalanuwan), so why not use it for journaling? It makes more sense, at least for me. I’m that nerd 🤓
+I interact with GitHub more often than [Twitter](https://twitter.com/kosalanuwan) or [LinkedIn](https://www.linkedin.com/in/kosalanuwan), so why not use it for everything else, say, todos, bookmarks, links, ahaa thoughts, notes for future me, journaling, and the like? It makes more sense, at least for me. I’m that nerd 🤓
 
 
 
@@ -21,7 +21,7 @@ I interact with GitHub more often than [Twitter](https://twitter.com/kosalanuwan
 
 
 
-The truth is I tried out all those widespread notes-taking apps from Evernote to OneNote, Workflowy, Trello, Todoist, Asana, and even Notion. For the record, they all seemed great apps but this is just my personal preference.
+The truth is I tried out all those widespread productivity and notes-taking apps from Evernote to OneNote, Workflowy, Trello, Todoist, Asana, and even Notion. For the record, they all seemed great apps but <mark>this is just my personal preference</mark>.
 
 ### About the site
 
