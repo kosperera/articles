@@ -13,7 +13,7 @@ domain: keepontruckin.hashnode.dev
 
 I love the idea of [Polymathy][tedtalk-polymathy]. It gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, there's only a [finite number of weeks yet to live till I die][weeksleft] and I can only boil so many oceans at the same time. <mark>I need to learn to outdo myself and outlast myself.</mark>
 
-![Ain't nobody got time for that girl](https://i.kym-cdn.com/photos/images/newsfeed/000/284/529/e65.gif align="center" width="100%")
+<img src="https://cdn.mos.cms.futurecdn.net/dE7FoWoaMSj4VnTCfLbWod.gif" alt="Ain't nobody got time for that girl" width="100%" align="center">
 
 Easy enuf, except [ain't nobody got time for that](https://www.youtube.com/watch?v=waEC-8GFTP4). <mark>Guilt piles, self-loathing, procastination, and imposter syndrome</mark> are endemic in tech communities.
 
