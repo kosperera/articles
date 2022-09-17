@@ -11,11 +11,11 @@ cover: https://zpyyya.bl.files.1drv.com/y4mVOSdmLfQFRHx5cQmMsz0lOsTQia_ioUf94HNY
 domain: keepontruckin.hashnode.dev
 ---
 
-I love the idea of [Polymathy][tedtalk-polymathy]. It gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, there's only a [finite number of weeks yet to live till I die][weeksleft] and I can only boil so many oceans at the same time. <mark>I need to learn to outdo myself and outlast myself.</mark> Easy enuf, except [ain't nobody got time for that](https://www.youtube.com/watch?v=waEC-8GFTP4).
+I love the idea of [Polymathy][tedtalk-polymathy]. It gives a very [*Multipotentialite*][tedtalk-multipotentialite] feel. Unfortunately, there's only a [finite number of weeks yet to live till I die][weeksleft] and I can only boil so many oceans at the same time. <mark>I need to learn to outdo myself and outlast myself.</mark>
 
-<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/284/529/e65.gif" width="100%" class="" title="No time for that!" alt="Ain't nobody got time forthat head water girl" data-src="https://i.kym-cdn.com/photos/images/newsfeed/000/284/529/e65.gif">
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/000/284/529/e65.gif" align="center" width="100%" class="img-responsive img-comic" title="No time for that!" alt="Ain't nobody got time forthat head water girl">
 
-<mark>Guilt piles, self-loathing, procastination, and imposter syndrome</mark> are endemic in tech communities.
+Easy enuf, except [ain't nobody got time for that](https://www.youtube.com/watch?v=waEC-8GFTP4). <mark>Guilt piles, self-loathing, procastination, and imposter syndrome</mark> are endemic in tech communities.
 
 [tedtalk-polymathy]: https://www.youtube.com/watch?v=kEk-BDckjW4
 [tedtalk-multipotentialite]: https://www.youtube.com/watch?v=4sZdcB6bjI8
