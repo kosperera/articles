@@ -6,7 +6,7 @@ slug: fluent-or-mapping
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: backend, csharp, net, orm, best-practices, design-patterns, clean-code, solid-principles
-cover: https://user-images.githubusercontent.com/958227/226826309-38002f81-e91e-4cdb-a8e2-82796f7e7fc0.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/226838884-bdac572a-5658-4faf-af87-cb79a754ff52.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 
