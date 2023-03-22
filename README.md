@@ -40,10 +40,11 @@ ignorePost: true
 Enter article body here
 ```
 *   List of tags can be found here https://github.com/Hashnode/support/blob/main/misc/tags.json
-*   Make sure you haven't included **ignorePost** in the frontmatter by mistake.
-*   Uninstalling app via Github will remove it from all the publications that the repo was connected to. If you want to specifically remove the installation from a particular publication, do it from it's Dashboard (Integrations section).
-*   Creating an article with same slug as another article in the publication will overwrite the old article.
-*   Do note that maximum of 10 file changes are respected in one particular commit.
+* Make sure you haven't included `ignorePost` in the frontmatter by mistake.
+* Uninstalling app via Github will remove it from all the publications that the repo was connected to. If you want to specifically remove the installation from a particular publication, do it from it's Dashboard (Integrations section).
+* Creating an article with same slug as another article in the publication will overwrite the old article.
+* Do note that maximum of 10 file changes are respected in one particular commit.
+* Publish cover images and other assets is easy as drag and drop on to a GitHub Issue, then just copy the url.
 
 
 
