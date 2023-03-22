@@ -6,8 +6,7 @@ slug: js-dom-manipulation-library
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: web-development, frontend-development, frontend-frameworks, javascript, javascript-library, jquery, dom
-# ref: https://onedrive.live.com/?authkey=%21AESKWD%2DaJCJVIyM&id=F5E282DC2EA8C19C%2112411&cid=F5E282DC2EA8C19C
-cover: https://zpyyya.bl.files.1drv.com/y4mKj-GZVciY4RA80VqVZ8oAtbdWJqr77ZEMEC2ULn6LtFHTsWFaIz5IyQF1v_ZD0mLBuEz1SEkwfssnGKTMOdKjSA7kcIBvbWqs1i55d_ZIIXX_jgQAzvUAV7kmGQ3yxG-mMo4mQfoiXw9w1NiLvZ81AhT-qDFXt1jXKw8RYXxmaVIdY2ZNCRsnBv1yScTVHI8bW8u1eaKcU9jkViOAK1GsA/Hashnode%20Blog%20Cover%20Images.005.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/226826354-1803f766-1591-443d-9ffe-4d91076e4ed4.png?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

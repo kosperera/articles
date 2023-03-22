@@ -6,8 +6,7 @@ slug: js-utility-belt-library
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: web-development, frontend-development, frontend-frameworks, javascript, javascript-library, lodash
-# ref: https://onedrive.live.com/?authkey=%21AESKWD%2DaJCJVIyM&id=F5E282DC2EA8C19C%2112411&cid=F5E282DC2EA8C19C
-cover: https://zpyyya.bl.files.1drv.com/y4mc11EczbzghGcoZDtGtRdfKvygscOqEYEWkKadOPouZFojt42UPhi9g-k5U6YtKQXA6L4-sh3XtOGNd6f_sGM-mNtSZI8CqJxTEcrcxpxtcIZ0MQ703P3vhe7dLmmLIJibQUgZZrB4jEdsd1SwgUG9VZpdvWqPf50FSKIkzW_gunFsEcQhyUZOLPP6rD5pjzT_ZPnY5O0e1AASmRVrrvgLg/Hashnode%20Blog%20Cover%20Images.002.png?auto=compress
+cover: https://user-images.githubusercontent.com/958227/226826264-e736ff4f-477f-419f-b694-3a25cee8a826.png?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 
