@@ -86,9 +86,11 @@ docker dev stop devcontainers-try-docsify-hungry_elion
 
 > **Note**
 >
-> [Docker Dev CLI][docker-dev-cli-commands] is handy if you would want to stick to the Terminal. Use [Docker Desktop, if not the browser extension, to create and launch dev environments][docker-dev-launch-dev-envs] otherwise.
+> [Docker Dev CLI][docker-dev-cli] is handy if you would want to stick to the Terminal. Use [Docker Desktop][docker-desktop-download] or the [Browser Extension][docker-dev-browser-ext], to create and [launch dev environments][docker-dev-launch-dev-envs] otherwise.
 
-[docker-dev-cli-commands]: https://docs.docker.com/desktop/dev-environments/dev-cli/
+[docker-dev-cli]: https://docs.docker.com/desktop/dev-environments/dev-cli/
+[docker-desktop-download]: https://www.docker.com/products/docker-desktop/
+[docker-dev-browser-ext]: https://github.com/docker/dev-envs-extension
 [docker-dev-launch-dev-envs]: https://docs.docker.com/desktop/dev-environments/create-dev-env/
 
 <img class="img-responsive img-comic" alt="They write high-quality code for six cents a day - Dilbert by Scott Adams" src="https://user-images.githubusercontent.com/958227/227764203-bef9e1fd-39d6-40f9-a62e-b865fb55477c.gif" width="100%">
