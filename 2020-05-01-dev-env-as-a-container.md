@@ -55,7 +55,7 @@ It's slightly obnoxious that docker runs in the foreground and would require ano
 
 <img class="img-responsive img-comic" alt="Docker dev environment in action - Docker Desktop" src="https://user-images.githubusercontent.com/958227/227768140-b623c0ee-6f45-4d32-a641-88372e44e873.png" width="100%">
 
-I prefer `docker dev` over `docker`. They also keep [everything in a YAML file][docker-compose-create-yml], so you don't need to memorize what ports to expose, the working directory to map, args to override, and the like. All I need to do is break out the same `docker` command that I use to spawn the container in detached `-d` mode to [create a `compose-dev.yml` file][compose-dev-yml] and we're all set.
+I prefer `docker dev` over `docker`. They also keep [everything in a YAML file][docker-compose-create-yml], so you don't need to memorize what ports to expose, the working directory to map, args to override, and the like. All I need to do is break out the same `docker` command that I use to spawn the container in detached `-d` mode to [create a `compose-dev.yml` file][compose-dev-yaml] and we're all set.
 
 [docker-compose-create-yml]: https://docs.docker.com/get-started/08_using_compose/#create-the-compose-file
 [compose-dev-yaml]: https://docs.docker.com/desktop/dev-environments/set-up/
