@@ -47,14 +47,18 @@ docker run --name stoic_goldstine \
            npx serve . --listen 3000 # run the http server in port 3000
 ```
 
-It's slightly obnoxious that docker runs in the foreground and would require another Terminal to stop. It would be impossible to run in [detached `-d` mode][docker-cli-detached-mode] without giving away docker [clean up `--rm` option][docker-cli-clean-up] completely. And you do want docker to automatically clean up when the container exit. It's time to switch to compose.
+It's slightly obnoxious that docker runs in the foreground and would require another Terminal to stop. It would be impossible to run in [detached `-d` mode][docker-cli-detached-mode] without giving away docker [clean up `--rm` option][docker-cli-clean-up] completely. And you do want docker to automatically clean up when the container exit. It's time to switch to [Docker Dev][docker-dev-overview].
 
+[docker-dev-overview]: https://docs.docker.com/desktop/dev-environments/
 [docker-cli-detached-mode]: https://docs.docker.com/engine/reference/run/#detached--d
 [docker-cli-clean-up]: https://docs.docker.com/engine/reference/run/#clean-up---rm
 
-I prefer `docker compose` over `docker`. They keep everything in a YAML file, so you don't need to memorize what ports to expose, the working directory to map, args to override, and the like. All I need to do is break out the same `docker` command that I use to spawn the container in detached `-d` mode to [create a `compose-dev.yml` file][docker-compose-create-yml] and we're all set.
+<img class="img-responsive img-comic" alt="Docker dev environment in action - Docker Desktop" src="https://user-images.githubusercontent.com/958227/227768140-b623c0ee-6f45-4d32-a641-88372e44e873.png" width="100%">
+
+I prefer `docker dev` over `docker`. They also keep [everything in a YAML file][docker-compose-create-yml], so you don't need to memorize what ports to expose, the working directory to map, args to override, and the like. All I need to do is break out the same `docker` command that I use to spawn the container in detached `-d` mode to [create a `compose-dev.yml` file][compose-dev-yml] and we're all set.
 
 [docker-compose-create-yml]: https://docs.docker.com/get-started/08_using_compose/#create-the-compose-file
+[compose-dev-yaml]: https://docs.docker.com/desktop/dev-environments/set-up/
 
 ```yaml
 # ./compose-dev.yml
@@ -70,23 +74,22 @@ services:
     command: /bin/sh -c "npx serve . --listen 3000"
 ```
 
-Then I can use `docker compose` commands to spawn the container and docker will do the rest for me.
+Then I can use `docker dev` commands to spawn the dev environment and docker will do the rest for me. Excellent!
 
 ```bash
 #!/bin/zsh
-# .dotfiles/.functions
-
-# Spin up the container in detached mode
-dc up -f compose-dev.yaml
-# Stop and remove the container
-dc d -f compose-dev.yaml
+# Spin up the dev environment
+docker dev create $(pwd)
+# Stop the dev environment
+docker dev stop devcontainers-try-docsify-hungry_elion
 ```
 
 > **Note**
 >
-> `dc up` and `dc d` are shell scripts written for my sanity so I can more quickly get back to coding. See [my .dotfiles repo on GitHub][gh-dotfiles-repo] to learn more.
+> [Docker Dev CLI][docker-dev-cli-commands] plug is handy if you would want to stick to the Terminal. Use [Docker Desktop, if not the browser extension, to create and launch dev environments][docker-dev-launch-dev-envs] otherwise.
 
-[gh-dotfiles-repo]: https://github.com/kosalanuwan/dotfiles/#readme
+[docker-dev-cli-commands]: https://docs.docker.com/desktop/dev-environments/dev-cli/
+[docker-dev-launch-dev-envs]: https://docs.docker.com/desktop/dev-environments/create-dev-env/
 
 <img class="img-responsive img-comic" alt="They write high-quality code for six cents a day - Dilbert by Scott Adams" src="https://user-images.githubusercontent.com/958227/227764203-bef9e1fd-39d6-40f9-a62e-b865fb55477c.gif" width="100%">
 
