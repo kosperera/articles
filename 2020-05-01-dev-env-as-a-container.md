@@ -47,7 +47,7 @@ docker run --name stoic_goldstine \
            npx serve . --listen 3000 # run the http server in port 3000
 ```
 
-It's slightly obnoxious that docker runs in the foreground and would require another Terminal to stop. It would be impossible to run in [detached `-d` mode][docker-cli-detached-mode] without giving away docker [clean up `--rm` option][docker-cli-clean-up] completely. And you do want docker to automatically clean up when the container exit. It's time to switch to [Docker Dev][docker-dev-overview].
+Unfortunately, docker runs in the foreground and requires another Terminal to stop to and remove the container. It would be impossible to run in [detached `-d` mode][docker-cli-detached-mode] without giving away docker [clean up `--rm` option][docker-cli-clean-up] completely. And you do want docker to automatically clean up when the container exit. It's time to switch to [Docker Dev][docker-dev-overview].
 
 [docker-dev-overview]: https://docs.docker.com/desktop/dev-environments/
 [docker-cli-detached-mode]: https://docs.docker.com/engine/reference/run/#detached--d
@@ -55,7 +55,7 @@ It's slightly obnoxious that docker runs in the foreground and would require ano
 
 <img class="img-responsive img-comic" alt="Docker dev environment in action - Docker Desktop" src="https://user-images.githubusercontent.com/958227/227768140-b623c0ee-6f45-4d32-a641-88372e44e873.png" width="100%">
 
-I prefer `docker dev` over `docker`. They also keep [everything in a YAML file][docker-compose-create-yaml], so you don't need to memorize what ports to expose, the working directory to map, args to override, and the like. All I need to do is break out the same `docker` command that I use to spawn the container in detached `-d` mode to [create a `compose-dev.yaml` file][compose-dev-yaml] and we're all set.
+I prefer `docker dev` over `docker`. They're technically the same as `docker compose`, except `docker dev` is specifically for dev environments. It also requires [a compose YAML file to configure the container][docker-compose-create-yaml], so you don't need to memorize which image to pull, what ports to expose, the working directory to map, args to override, et al. All I need to do is break out the same `docker` command that I use to spawn the container in detached mode to [create a `compose-dev.yaml` file][compose-dev-yaml] and we're all set.
 
 [docker-compose-create-yaml]: https://docs.docker.com/get-started/08_using_compose/#create-the-compose-file
 [compose-dev-yaml]: https://docs.docker.com/desktop/dev-environments/set-up/
@@ -95,11 +95,11 @@ docker dev stop devcontainers-try-docsify-hungry_elion
 
 
 
-[I use Typora for markdown][hello-world] but we're going to need HTML/CSS and JavaScript support to change the default theme. And that means [VS Code][vscode-download], but there are more problems.
+[I use Typora for markdown][hello-world] but we're going to have to change the default theme. They require intellisense and syntax highlighting to work with HTML/CSS and JavaScript. I can use [VS Code][vscode-download] with a few [extensions](./.vscode/extensions.json) but there are more problems.
 
 <img class="img-responsive img-comic" alt="They write high-quality code for six cents a day - Dilbert by Scott Adams" src="https://user-images.githubusercontent.com/958227/227764203-bef9e1fd-39d6-40f9-a62e-b865fb55477c.gif" width="100%">
 
-Working without extensions is slightly obnoxious. Not only is there no IntelliSense, but no language recognition at all. They require node runtime to work. I'm going to go ahead and say that they don't have access to node runtime inside the container, so they have no way of knowing what syntax highlighting and IntelliSense to show. And you do want to have it all to work. Time to install the [Remote - Containers][vscode-remote-containers-extension] extnesion and `Attach to Running Container`. Then I can install the required extensions for node and JavaScript. It's slightly obnoxious that VS Code doesn't install recommended extensions from the `.vscode/extensions.json` automatically, so I'm going to have to install `recommendations` manually.
+Not only is there no language recognition, but no intellisense at all. I'm going to go ahead and say that they don't have access to the node runtime inside the container, so they have no way of knowing what syntax highlighting and intellisense to show. And you do want to them to work. Time to install the [Remote - Containers][vscode-remote-containers-extension] extnesion and `Attach to Running Container`. Then I can install the required extensions for node and JavaScript. It's slightly obnoxious that VS Code doesn't install recommended extensions from the `.vscode/extensions.json` automatically, so I'm going to have to install `recommendations` manually.
 
 [hello-world]: https://keepontruckin.hashnode.dev/hello-world
 [vscode-download]: https://code.visualstudio.com/
