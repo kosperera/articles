@@ -1,12 +1,12 @@
 ---
-title: Bake in docker development environment as part of source code
-subtitle: Developing inside a container
-slug: docker-as-a-dev-env
+title: Homogenize your dev environments with Docker
+subtitle: Creating a dead simple dev evironment as part of code repo
+slug: docker-dev-env-as-code
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: developer-tools, future, docker, productivity
-cover: https://user-images.githubusercontent.com/958227/227739882-f21a9c5d-011f-4b6c-a57d-4a5b9c0aaea1.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/227752797-5c5575c1-cd87-427d-bd3c-82ce86e0cfd4.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

@@ -6,7 +6,7 @@ slug: non-opinionated-code-reviews
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming, developer, general-advice, software-development, clean-code, developers, code-review, design review, guide
-cover: https://user-images.githubusercontent.com/958227/226838905-7fe99ab6-0620-4146-8b91-6df4d2da23ec.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/227752795-58eee705-8251-4b57-9de5-440346995ac5.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 
