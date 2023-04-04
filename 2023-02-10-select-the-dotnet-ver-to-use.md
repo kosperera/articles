@@ -1,6 +1,6 @@
 ---
 title: Selecting what .NET version is to use
-subtitle: I've got 99 problems but an end-of-Life .NET version aint one!
+subtitle: We have got 99 problems but end-of-life .NET version ain't one
 slug: select-the-dotnet-ver-to-use
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
