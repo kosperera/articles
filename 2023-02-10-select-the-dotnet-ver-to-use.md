@@ -10,7 +10,7 @@ cover: https://user-images.githubusercontent.com/958227/229709054-87d8a9cc-acfc-
 domain: keepontruckin.hashnode.dev
 ---
 
-I'm a little procrastinated, not gonna lie. The Alertbox Inc. (@[alertboxinc](alertboxinc)) pipelines page is open on my work PC and one of the CI pipelines is broken. What a SHAM!
+I'm a little procrastinated, not gonna lie. The Alertbox Inc. (@[alertboxinc](@alertboxinc)) pipelines page is open on my work PC and one of the CI pipelines is broken. What a SHAM!
 
 It's a little weird since the pipeline logs show the target .NET version isn't available, but the changeset seems to work locally. Not only are there no tests failing, but there are no errors at all. For the record, Alertbox has several hundred git repos and [pipelines they run quite often on hosted agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#use-a-microsoft-hosted-agent). Unfortunately, not all code repos are on [the latest LTS version of .NET](https://versionsof.net/core/), so they require several versions of .NET installed locally, and you can only boil so many oceans at the same time.
 
