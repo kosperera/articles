@@ -1,6 +1,6 @@
 ---
 title: Selecting what .NET version is to use
-subtitle: It works on my machine but the pipeline is failing
+subtitle: I've got 99 problems but an end-of-Life .NET version aint one!
 slug: select-the-dotnet-ver-to-use
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
