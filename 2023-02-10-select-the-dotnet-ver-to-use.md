@@ -54,10 +54,10 @@ az pipelines run \
 ```
 
 ```bash
-# Check for status
+# Check for build status
 az pipelines runs list \
-   --top 3
-   --status all
+   --top 3 \
+   --status all \
    --branch kp/fix-23-dotnet-not-found \
    --output table
 ```
