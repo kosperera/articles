@@ -3,7 +3,7 @@ title: Writing a Lodash-like JS utility belt library
 # subtitle: optional catchy phrase for the post
 slug: js-utility-belt-library
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: web-development, frontend-development, frontend-frameworks, javascript, javascript-library, lodash
 cover: https://user-images.githubusercontent.com/958227/226838877-7dcf7ee5-2805-498d-abd7-31d9bbb052d0.jpeg?auto=compress

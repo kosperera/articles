@@ -3,7 +3,7 @@ title: Writing pipes and filters for fluent OR-mapping
 # subtitle: Optional.
 slug: fluent-or-mapping
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: backend, csharp, net, orm, best-practices, design-patterns, clean-code, solid-principles
 cover: https://user-images.githubusercontent.com/958227/226838884-bdac572a-5658-4faf-af87-cb79a754ff52.jpeg?auto=compress

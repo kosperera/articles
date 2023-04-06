@@ -3,7 +3,7 @@ title: Hello world
 subtitle: Eating GitHub for cereal with a punch of Hashnode
 slug: hello-world
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: hello-world, hashnode, devlife, blogging, github
 cover: https://user-images.githubusercontent.com/958227/226838862-82e4c799-2993-4ac3-89dd-0af8cf8873b0.jpeg?auto=compress

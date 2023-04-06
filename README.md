@@ -27,12 +27,12 @@ tags: TAG_SLUG_1, TAG_SLUG_2 **(Required)** - You can find the list of tags here
 /* You need to upload your image to https://hashnode.com/uploader 
 and use the uploaded image URL as COVER_IMAGE_URL */ 
 cover: COVER_IMAGE_URL
-domain: YOUR_HASHNODE_BLOG_DOMAIN_NAME_HERE (e.g. sandeep.dev or sandeep.hashnode.dev) **(Required)** 
+domain: keepontruckin.hashnode.dev
 /* When you have a team publication and a publication member has created an article */ 
 /* Please note that this param is only supported while creating an article and not updating */ 
 publishAs: USERNAME_OF_AUTHOR_OF_ARTICLE 
 /* When your article is republished and you want to use  the origin url as canonical url */ <br/>
-canonical: CANONICAL_URL_OF_ARTICLE 
+canonical: https://kosalanuwan.github.io
 /* Only if you don't want this article to be published yet */ 
 ignorePost: true
 ---
@@ -45,6 +45,3 @@ Enter article body here
 * Creating an article with same slug as another article in the publication will overwrite the old article.
 * Do note that maximum of 10 file changes are respected in one particular commit.
 * Publish cover images and other assets is easy as drag and drop on to a GitHub Issue, then just copy the url.
-
-
-

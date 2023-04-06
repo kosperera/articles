@@ -3,7 +3,7 @@ title: Non-opinionated code review guidelines
 subtitle: A set of ground rules for agile development teams, contributors, and maintainers
 slug: non-opinionated-code-reviews
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: programming, developer, general-advice, software-development, clean-code, developers, code-review, design review, guide
 cover: https://user-images.githubusercontent.com/958227/227752795-58eee705-8251-4b57-9de5-440346995ac5.jpeg?auto=compress

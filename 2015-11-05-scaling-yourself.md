@@ -3,7 +3,7 @@ title: Scaling yourself to outdo yourself
 subtitle: Ain't nobody got time for that!
 slug: scaling-yourself
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: devlife, productivity, self-improvement-1
 cover: https://user-images.githubusercontent.com/958227/227752791-41068605-bb2a-4b23-b4ee-71f4229e4616.jpeg?auto=compress

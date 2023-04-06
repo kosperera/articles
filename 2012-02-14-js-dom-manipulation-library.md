@@ -3,7 +3,7 @@ title: Writing a DOM manipulation library
 # subtitle: optional catchy phrase for the post
 slug: js-dom-manipulation-library
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: web-development, frontend-development, frontend-frameworks, javascript, javascript-library, jquery, dom
 cover: https://user-images.githubusercontent.com/958227/226838896-3a0d9f2c-1529-4e4e-9e81-d557be954678.jpeg?auto=compress

@@ -3,7 +3,7 @@ title: Homogenize your dev environments with Docker
 subtitle: Creating a dead simple dev environment container
 slug: dev-env-as-a-container
 # previously published url.
-canonical: https://kosalanuwan.github.io/journal/
+canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: developer-tools, future, docker, productivity
 cover: https://user-images.githubusercontent.com/958227/227752797-5c5575c1-cd87-427d-bd3c-82ce86e0cfd4.jpeg?auto=compress
