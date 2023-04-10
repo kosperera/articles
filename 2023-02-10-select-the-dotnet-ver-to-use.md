@@ -1,6 +1,6 @@
 ---
 title: Selecting what .NET version is to use
-subtitle: They removed .NET 5 from pipeline agents but upgrading the .NET to the LTS version ain't gonna happen
+subtitle: They removed .NET 5 from pipeline agents but I'm way too lazy to migrate to .NET 6
 slug: select-the-dotnet-ver-to-use
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
