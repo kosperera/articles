@@ -21,7 +21,7 @@ The Alertbox Inc. (@[alertboxinc](@alertboxinc)) pipelines page is open on my wo
 
 
 
-### Migrating the Service Fabric app
+### Service Fabric app
 
 The first thing we're going to need is the [latest update for Service Fabric][hdi-sf-getting-started]. And that means runtime, SDK, and the tools to [create, build, and run reliable service apps on a local cluster][hdi-sf-create-reliable-services]. Unfortunately, [the IIS team recently sunset the Web PI][announcements-iis-web-pi-sunset], so the Service Fabric team bundled the latest releases with Visual Studio, and I'm going to have to update Visual Studio to download them for me.
 
@@ -63,7 +63,7 @@ The *.xml* configurations need no changes, so we can ignore them for now.
 
 
 
-### Migrating reliable services and dependencies
+### Services and dependencies
 
 Next on the list are reliable services. This covers a lot of ground since Alertbox uses multiple stateless services bundled into a single Service Fabric app, say, Web APIs and Console apps, and they target `netcoreapp3.1` to build and run, so we're going to have to upgrade them to `net6.0`. I can replace `<DefaultNetCoreTragetFramework />` in the *Directory.Build.props* file like they do on [@dotnet repos on GitHub][gh-search-build-props-xml-files], but there's more to it. They need to upgrade dependencies.
 
@@ -93,7 +93,7 @@ It's slightly obnoxious that they only let you check for the status, so I'm goin
 
 ### Troubleshooting
 
-Visual Studio can build from source but it keeps failing to deploy the Service Fabric app onto the local cluster. I'm going to go ahead and say that they use *Deploy-Application.ps1* powershell script in the *.sfproj* to deploy, so replacing it from the script in that new boilerplate code to take care of it seems like the right answer.
+Visual Studio can build from source but it keeps failing to deploy the Service Fabric app onto the local cluster. I'm going to go ahead and say that they use *Deploy-FabricApplication.ps1* powershell script in the *.sfproj* to deploy, so replacing it from the script in that new boilerplate code to take care of it seems like the right answer.
 
 Then I can build and run the app from source and Visual Studio will do the rest for me. But there are more problems.
 
@@ -134,7 +134,7 @@ But there's more to do. We need to update the *global.json* with the new SDK ver
 
 Then I can build and run from source and Visual Studio debugger will do the rest for me. And if version `>=6.0.407` is not installed locally, nothing gets compiled.
 
-### Updating pipelines to select only .NET 6
+### Pipelines
 
 I'm not exactly sure when the Azure Pipelines team is going to remove .NET 6 once it reaches end-of-life support, so I'm going to have to update the build steps to [always select the .NET version used in the code repo][hdi-select-dotnet]. All I need to do is push all changes to a feature branch to raise a pull request and the branch policies will trigger the CI pipeline for me. Excellent!
 
