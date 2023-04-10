@@ -1,12 +1,12 @@
 ---
 title: Selecting what .NET version is to use
-subtitle: We have got 99 problems but upgrading the .NET to the latest version ain't one
+subtitle: They removed .NET 5 from pipeline agents but upgrading the .NET to the LTS version ain't gonna happen
 slug: select-the-dotnet-ver-to-use
 # previously published url.
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: azure, devops, continuous-integration, net, vscode, csharp
-cover: https://user-images.githubusercontent.com/958227/229709054-87d8a9cc-acfc-4b0b-a1b1-59e5a87051f3.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/230955025-2f7357aa-929d-4ccd-885e-30e7f623283b.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 
