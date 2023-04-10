@@ -1,6 +1,6 @@
 ---
 title: Migrating Service Fabric apps to .NET 6
-subtitle: There's more to do other than updating target framework to net6.0 when migrating service fabric apps, services, and dependencies to the .NET 6
+subtitle: There's more to do than just flipping the target framework when migrating Service Fabric apps to the .NET 6
 slug: upgrade-sf-to-net6.md
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: azure, servicefabric, net, migrations
