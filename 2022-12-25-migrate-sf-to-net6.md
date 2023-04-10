@@ -95,6 +95,8 @@ It's slightly obnoxious that they only let you check for the status, so I'm goin
 
 Visual Studio can build from source but it keeps failing to deploy the Service Fabric app onto the local cluster. I'm going to go ahead and say that they use *Deploy-FabricApplication.ps1* powershell script in the *.sfproj* to deploy, so replacing it from the script in that new boilerplate code to take care of it seems like the right answer.
 
+<img class="img-responsive img-comic" alt="2010-08-21_product safety testing_angry_rodney_swear_ship_bandage" src="https://user-images.githubusercontent.com/958227/230875800-623ebd14-efb0-4bf3-9887-63f5f4329a8d.gif?auto=compress" width="100%">
+
 Then I can build and run the app from source and Visual Studio will do the rest for me. But there are more problems.
 
 [The Visual Studio debugger won't attach.][sf-issue-vs-debugger-wont-attach] This may be difficult. I'll come back to this later.
