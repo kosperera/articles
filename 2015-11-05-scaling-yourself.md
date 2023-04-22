@@ -6,7 +6,7 @@ slug: scaling-yourself
 canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: devlife, productivity, self-improvement-1
-cover: https://user-images.githubusercontent.com/958227/230955010-940d819c-42a8-4a07-ba62-7ebc84971d8a.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758732-1157fdc6-1c8c-4cc4-9142-732efb5b1726.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

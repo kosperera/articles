@@ -6,7 +6,7 @@ slug: select-the-dotnet-ver-to-use
 canonical: https://kosalanuwan.github.io/journal/
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: azure, devops, continuous-integration, net, vscode, csharp
-cover: https://user-images.githubusercontent.com/958227/230955025-2f7357aa-929d-4ccd-885e-30e7f623283b.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758740-54d5f724-44e8-4982-b095-cd40a3c5e1ae.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

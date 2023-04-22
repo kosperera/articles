@@ -6,7 +6,7 @@ slug: hello-world
 canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: hello-world, hashnode, devlife, blogging, github
-cover: https://user-images.githubusercontent.com/958227/230954991-acaee940-ef3d-4aca-9eed-ecd46fe60224.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758726-1276ec39-db7b-43ac-922c-c645fb47b22c.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

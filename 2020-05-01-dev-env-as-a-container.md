@@ -6,7 +6,7 @@ slug: dev-env-as-a-container
 canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: developer-tools, future, docker, productivity
-cover: https://user-images.githubusercontent.com/958227/230955020-f446af73-1677-4f7a-a820-c62e8d0794b3.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758737-5287107d-d989-4641-81be-5d3aab67309d.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

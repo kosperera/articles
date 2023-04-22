@@ -4,7 +4,7 @@ subtitle: There's more to do than just flipping the target framework to .NET 6 w
 slug: migrate-sf-to-net6
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: azure, servicefabric, net, migrations
-cover: https://user-images.githubusercontent.com/958227/230955026-d8739ca2-50a1-41c3-a56b-065bd9156748.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758742-f004ed33-4e33-423d-8858-b1f0f9768ed4.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 

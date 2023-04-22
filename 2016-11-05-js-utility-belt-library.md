@@ -6,7 +6,7 @@ slug: js-utility-belt-library
 canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: web-development, frontend-development, frontend-frameworks, javascript, javascript-library, lodash
-cover: https://user-images.githubusercontent.com/958227/230954999-96d72f53-cc82-42bc-b568-cc440fcbb401.jpeg?auto=compress
+cover: https://user-images.githubusercontent.com/958227/233758729-e24ce4a6-1291-485f-bfb1-a9c1bb1db07c.jpeg?auto=compress
 domain: keepontruckin.hashnode.dev
 ---
 
