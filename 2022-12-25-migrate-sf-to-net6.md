@@ -4,8 +4,8 @@ subtitle: There's more to do than just flipping the target framework to .NET 6 w
 slug: migrate-sf-to-net6
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: azure, servicefabric, net, migrations
-cover: https://user-images.githubusercontent.com/958227/233758742-f004ed33-4e33-423d-8858-b1f0f9768ed4.jpeg?auto=compress
-domain: keepontruckin.hashnode.dev
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700446872878/uGkJOnOdX.jpeg?auto=format?auto=compress
+domain: itsactuallyme.hashnode.dev
 ---
 
 Migrating Service Fabric apps to the .NET 6 suck! Not only is there no opensource community engagement, but there's [no same-day support for new .NET versions][qna-sf-community-meetup-no-same-day-support] at all. What a SHAM! There's nothing I can do about that.
