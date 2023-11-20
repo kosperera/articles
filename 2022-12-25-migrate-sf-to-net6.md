@@ -25,7 +25,7 @@ The Alertbox Inc. (@[alertboxinc](@alertboxinc)) pipelines page is open on my wo
 
 The first thing we're going to need is the [latest update for Service Fabric][hdi-sf-getting-started]. And that means runtime, SDK, and the tools to [create, build, and run reliable service apps on a local cluster][hdi-sf-create-reliable-services]. Unfortunately, [the IIS team recently sunset the Web PI][announcements-iis-web-pi-sunset], so the Service Fabric team bundled the latest releases with Visual Studio, and I'm going to have to update Visual Studio to download them for me.
 
-The other thing we're going to need is a *global.json* file since there are several .NET versions installed already in my work PC, so it's definitely necessary to break out that [`dotnet` driver and create a *global.json* file to select `net6.0` SDK version][hdi-select-dotnet] that is in.
+The other thing we're going to need is a *global.json* file since there are several .NET versions already installed in my PC, so it's definitely necessary to break out that [`dotnet` driver and create a *global.json* file to select `net6.0` SDK version][hdi-select-dotnet] that is in.
 
 [hdi-sf-getting-started]: https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started
 [hdi-sf-create-reliable-services]: https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-services-quick-start#create-a-stateless-service
