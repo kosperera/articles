@@ -7,7 +7,7 @@ canonical: https://kosalanuwan.github.io
 # ref: https://github.com/Hashnode/support/blob/main/misc/tags.json
 tags: hello-world, hashnode, devlife, blogging, github
 cover: https://user-images.githubusercontent.com/958227/233758726-1276ec39-db7b-43ac-922c-c645fb47b22c.jpeg?auto=compress
-domain: keepontruckin.hashnode.dev
+domain: kosalanuwan.hashnode.dev
 ---
 
 [GitHub](https://github.com/) used to be my unicorn and now it is _my bitch_.
@@ -28,8 +28,8 @@ In case you were wondering, these journal notes are:
 - Published with [GitHub as Source](https://townhall.hashnode.com/start-using-github-to-publish-articles-on-hashnode), thanks to Ayodele (@[unclebigbay](@unclebigbay)) in Nigeria.
 - Originally, a flavor of my [Developer Journal](https://opensource.com/article/19/4/what-developer-journal).
 
-You can find more about my work on [my GitHub Page](https://keepontruckin.hashnode.dev/opensource/).
+You can find more about my work on [my GitHub Page](https://kosalanuwan.hashnode.dev/opensource/).
 
-For comments or questions, feel free to [ask me on GitHub](https://keepontruckin.hashnode.dev/ama), [on Twitter](https://twitter.com/kosalanuwan), or via email at kosala dot nuwan at gmail dot com.
+For comments or questions, feel free to [ask me on GitHub](https://kosalanuwan.hashnode.dev/ama), [on Twitter](https://twitter.com/kosalanuwan), or via email at kosala dot nuwan at gmail dot com.
 
 /KP
